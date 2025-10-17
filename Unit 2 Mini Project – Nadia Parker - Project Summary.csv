@@ -1,0 +1,20 @@
+Project Summary,
+Name,Nadia Sackley
+Project Domain ,Education
+Data Description,"3 sheets: scores(5x41),students(5x21),subjects(3x5)"
+,"A record in scores have student_id ,subject_id: linking the score to the respective score and exam subject."
+Summary of data cleaning steps,Ensured consistent exam_dates format
+,Found no Missing Values
+,Found no extra whitespace
+,Found no duplicates but noticed close similarities. Data integrity and accuracy are questionable.
+,Found no inconsistent and standard text cases
+,Found No error 
+Key insights from analysis,Enough evidence to suspect data accuracy.
+,Best performing subject was Science
+,Least perfroming region was western
+,Low male participation in the exams
+,student_name(but not unique)
+,The main record is in scores and has everyother column from the students and subjects sheets fetched(linked)
+,"Run the macro to ""Show original scores - hide the extra columns"". "
+Notes,"A noticed mistake, area of improvement is to maintain handle pivot table sumamries differently to enable full data sync even on dashboard."
+Sheet Link,https://docs.google.com/spreadsheets/d/1AbXJzv68KYcijJEx5JfI8b2PVFZRETLSYQPhbbJEXaM/edit?usp=sharing
